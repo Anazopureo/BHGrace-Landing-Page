@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primarycolor: black;
+    --secondarycolor: white;
+    --accentcolor:gray;
+    background: aqua;
+    
+}
+
+.container{
+    /* height:700px; */
+    color: var(--secondarycolor);
+    
+
+    
+}
+
+.navbar{
+    margin:10px 200px;
+    padding: 10px 30px;
+    border:1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--primarycolor);
+    background-color: var(--secondarycolor);
+}
+
+nav{
+    padding: 5px;
+    gap: 10px;
+    border:1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+button{
+    color: var(--primarycolor);
+    width: 50px
+}
+
+button :hover{
+    color: red;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
