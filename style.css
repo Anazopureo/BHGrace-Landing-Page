@@ -102,8 +102,8 @@ button a{
 }
 
 .background-vid{
-    
-    z-index: -1;
+
+    z-index: -1; /*pushes the video behind elements*/
 }
 
 
