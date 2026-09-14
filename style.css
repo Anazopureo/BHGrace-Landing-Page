@@ -4,16 +4,17 @@
 }
 
 :root{
-    --primarycolor: black;
-    --secondarycolor: white;
+    --primarycolor:  white ;
+    --secondarycolor: black;
     --accentcolor:gray;
-    background: aqua;
+    /* background: aqua; */
     
 }
 
 .container{
     /* height:700px; */
-    color: var(--secondarycolor);
+    color: var(--primarycolor);
+    
     
 
     
@@ -22,16 +23,29 @@
 .navbar{
     margin:10px 200px;
     padding: 10px 30px;
+    width:800px;
+    height:50px;
     border:1px solid black;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
-    color: var(--primarycolor);
-    background-color: var(--secondarycolor);
+    align-items: center;
+    color: var(--secondarycolor);
+    background-color: var(--primarycolor);
+}
+
+.navbar h1{
+    font-size: 80px;
+}
+
+.note{
+    border:1px solid black; 
+    padding: 50px 50px 100px 200px;
+    color: var(--secondarycolor)
 }
 
 nav{
-    padding: 5px;
+    padding:0px 30px;
     gap: 10px;
     border:1px solid black;
     display: flex;
@@ -40,18 +54,27 @@ nav{
 }
 
 button{
-    color: var(--primarycolor);
-    width: 50px
+    padding: 13px 21px;
+    margin: 0;
+    background-color: #e7e7e7;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration: 0.4s;
 }
 
-button :hover{
-    color: red;
+button:hover{
+    background-color: red;
+    color: white;
+    
 }
 
-a{
+button a{
     text-decoration: none;
 }
-
 
 
 
