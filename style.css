@@ -24,7 +24,7 @@
     margin:10px 200px;
     padding: 10px 30px;
     width:800px;
-    height:50px;
+    height:60px;
     /* border:1px solid black; */
     border-radius: 20px;
     display: flex;
@@ -33,10 +33,12 @@
     color: var(--secondarycolor);
     background-color: var(--primarycolor);
     position: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar h1{
-    font-size: 80px;
+    font-size: 70px;
+    color: blue;
 }
 
 nav{
@@ -56,6 +58,8 @@ nav{
     bottom: 0px;
     left: 5px;
     animation: slide-down 3s ease-in-out, fade-in 4s ease-in;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* animation-name: slideup;
     animation-duration: 2s;
     animation-timing-function: ease-in-out;
@@ -64,7 +68,7 @@ nav{
 }
 
 .note h2{
-    font-size: 40px;
+    font-size: 50px;
     color: blue;
 }
 
@@ -102,9 +106,11 @@ button a{
 }
 
 .background-vid{
-
     z-index: -1; /*pushes the video behind elements*/
 }
 
+footer{
+    color: purple;
+}
 
 
